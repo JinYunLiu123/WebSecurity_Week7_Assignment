@@ -49,6 +49,7 @@ Time spent: 10 hours spent in total
     - Tested in version: 4.0-4.7.2
     - Fixed in version:  4.2.13
   - [ ] GIF Walkthrough: 
+  ![Question_three](https://user-images.githubusercontent.com/37051376/56074157-8f6a9c00-5d7b-11e9-8ce7-af4ed815a2d7.gif)
   - [ ] Steps to recreate: 
 	1. Login as a user with the ability to create new posts
 	2. In the post body add the followin gyoutube embed code:
