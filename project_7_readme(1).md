@@ -14,7 +14,6 @@ Time spent: 10 hours spent in total
   - [ ] GIF Walkthrough: 
   - [ ] Steps to recreate: 
 			1. Go to any post.
-			
 			2. Paste the following as a comment in text.
 			
 			  <button onclick = "fire()">Click<button>
@@ -25,7 +24,6 @@ Time spent: 10 hours spent in total
 			  </script>
 			  
 			3. Click the button.
-			
 			4. Alert(1) will pop up.
 			
   - [ ] Affected source code:
@@ -38,11 +36,8 @@ Time spent: 10 hours spent in total
   - [ ] GIF Walkthrough: 
   - [ ] Steps to recreate: 
 			1. Rename the image file to img src= a onerror = alert(document.cookie)
-			
 			2. Upload the image to WordPress
-			
 			3. Create a post and add image to posts
-			
 			4. Change the attachment displat to "Attachment page"
   - [ ] Affected source code:
     - [Link 2](https://sumofpwn.nl/advisory/2016/persistent_cross_site_scripting_vulnerability_in_wordpress_due_to_unsafe_processing_of_file_names.html)
@@ -54,7 +49,6 @@ Time spent: 10 hours spent in total
   - [ ] GIF Walkthrough: 
   - [ ] Steps to recreate: 
 			1. Login as a user with the ability to create new posts
-			
 			2. In the post body add the followin gyoutube embed code:
 			
 			[embed src='https://youtube.com/embed/123\x3csvgonload=alert(1)\x3e'][/embed]
