@@ -35,7 +35,8 @@ Time spent: 10 hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version:  4.2.2
-  - [ ] GIF Walkthrough: 
+  - [ ] GIF Walkthrough:
+  ![Question_two](https://user-images.githubusercontent.com/37051376/56074170-b0cb8800-5d7b-11e9-9f0a-978a7aab553a.gif)
   - [ ] Steps to recreate: 
 	1. Rename the image file to img src= a onerror = alert(document.cookie)
 	2. Upload the image to WordPress
