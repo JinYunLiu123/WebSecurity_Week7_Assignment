@@ -15,8 +15,8 @@ Time spent: 10 hours spent in total
   ![Question_one](https://user-images.githubusercontent.com/37051376/56074146-5fbb9400-5d7b-11e9-83de-cc80f671c113.gif)
 
   - [ ] Steps to recreate: 
-	1. Go to any post.
-	2. Paste the following as a comment in text.
+		1. Go to any post.
+		2. Paste the following as a comment in text.
 			
 			<button onclick = "fire()">Click<button>
 			<script>
@@ -25,8 +25,8 @@ Time spent: 10 hours spent in total
 			}
 			</script>
 			  
-	3. Click the button.
-	4. Alert(1) will pop up.
+		3. Click the button.
+		4. Alert(1) will pop up.
 			
   - [ ] Affected source code:
     - [Link 1](https://github.com/WordPress/WordPress/commit/f72b21af23da6b6d54208e5c1d65ececdaa109c8)
