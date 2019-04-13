@@ -6,7 +6,7 @@ Time spent: 10 hours spent in total
 
 ## Pentesting Report
 
-1. (Required) Vulnerability: Pupload Same Origin Method Execution (SOME)
+### 1. (Required) Vulnerability: Pupload Same Origin Method Execution (SOME)
   - [ ] Summary: 
     - Vulnerability types: SOME, XSS
     - Tested in version: 4.2
@@ -15,8 +15,8 @@ Time spent: 10 hours spent in total
   ![Question_one](https://user-images.githubusercontent.com/37051376/56074146-5fbb9400-5d7b-11e9-83de-cc80f671c113.gif)
 
   - [ ] Steps to recreate: 
-		1. Go to any post.
-		2. Paste the following as a comment in text.
+	1. Go to any post.
+	2. Paste the following as a comment in text.
 			
 			<button onclick = "fire()">Click<button>
 			<script>
@@ -25,12 +25,15 @@ Time spent: 10 hours spent in total
 			}
 			</script>
 			  
-		3. Click the button.
-		4. Alert(1) will pop up.
+	3. Click the button.
+	4. Alert(1) will pop up.
 			
   - [ ] Affected source code:
     - [Link 1](https://github.com/WordPress/WordPress/commit/f72b21af23da6b6d54208e5c1d65ececdaa109c8)
-2. (Required) Vulnerability: Authenticated Stored Cross-Site Scripting via Image Filename
+    
+    
+    
+### 2. (Required) Vulnerability: Authenticated Stored Cross-Site Scripting via Image Filename
   - [ ] Summary: 
     - Vulnerability types: XSS
     - Tested in version: 4.2
@@ -44,7 +47,9 @@ Time spent: 10 hours spent in total
 	4. Change the attachment displat to "Attachment page"
   - [ ] Affected source code:
     - [Link 2](https://sumofpwn.nl/advisory/2016/persistent_cross_site_scripting_vulnerability_in_wordpress_due_to_unsafe_processing_of_file_names.html)
-3. (Required) Vulnerability: Authenticated Stored Cross-Site Scripting in YouTube URL Embeds
+    
+    
+### 3. (Required) Vulnerability: Authenticated Stored Cross-Site Scripting(XSS) in YouTube URL Embeds
   - [ ] Summary: 
     - Vulnerability types: XSS
     - Tested in version: 4.0-4.7.2
