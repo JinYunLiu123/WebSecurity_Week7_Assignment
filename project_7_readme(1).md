@@ -12,6 +12,8 @@ Time spent: 10 hours spent in total
     - Tested in version: 4.2
     - Fixed in version:  4.2.13
   - [ ] GIF Walkthrough: 
+  ![Question_one](https://user-images.githubusercontent.com/37051376/56074146-5fbb9400-5d7b-11e9-83de-cc80f671c113.gif)
+
   - [ ] Steps to recreate: 
 	1. Go to any post.
 	2. Paste the following as a comment in text.
